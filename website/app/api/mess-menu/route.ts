@@ -60,16 +60,25 @@ export async function GET() {
 
 		const combinedMenu: any = {};
 
-		Object.keys(menu62).forEach((dayKey) => {
+		Object.entries(menu62).forEach(([dayKey, dayValue]) => {
 			const dayName = dayKey.split(" ")[0];
+			const meals = dayValue as Record<string, unknown>;
+
+			// Extract the date from the day entry, if present
+			const dateStr = (meals.date as string) || "";
+			const { date: _date, ...rest } = meals;
+
 			const lunch128 = menu128[dayName]
 				? menu128[dayName]
 						.filter((item: string) => item && item.trim() !== "")
 						.join(", ")
 				: null;
 
-			combinedMenu[dayKey] = {
-				...menu62[dayKey],
+			// Normalize the key to "<Day> <dd.mm.yy>" so the view can parse it
+			const normalizedKey = dateStr ? `${dayName} ${dateStr}` : dayName;
+
+			combinedMenu[normalizedKey] = {
+				...rest,
 				Lunch128: lunch128 || null,
 			};
 		});
