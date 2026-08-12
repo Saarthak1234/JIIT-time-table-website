@@ -34,7 +34,7 @@ A powerful **Next.js** application that helps JIIT students create personalized 
 
 ## A Quick Shoutout
 
-The mess menu data comes from **[@life2harsh2](https://github.com/life2harsh2)**, who updates the menus for both JIIT Sector 62 and 128 every single week. The JSON this app serves is pulled straight from his repo:
+The mess menu data comes from **[@life2harsh](https://github.com/life2harsh)**, who updates the menus for both JIIT Sector 62 and 128 every single week. The JSON this app serves is pulled straight from his repo:
 
 > **Endpoint:** `https://raw.githubusercontent.com/life2harsh2/data/main/mess_menu.json`
 
