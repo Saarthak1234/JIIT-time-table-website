@@ -1,0 +1,363 @@
+{
+    "1": {
+        "timetable": {
+            "MON": {
+                "9-9.50": [
+                    "LBCA1(25B11CA112)-VSH/CR501"
+                ],
+                "10-10.50": [
+                    "LBCA1(25B11CA113)-SHW/CR501"
+                ],
+                "11-11.50": [
+                    "LBCA1(25B31HS112)-PAC/CR501"
+                ],
+                "12-12.50": [],
+                "1-1.50": [
+                    "LBCA1(23B31MA111)-HPT/CR501"
+                ],
+                "2-2.50": [
+                    "LBCA1(23B12BT111)-RPS/CR-501"
+                ],
+                "3-3.50": [],
+                "4-4.50": [
+                    "LBCA1(25B11CA111)-SNA/CR501"
+                ]
+            },
+            "TUES": {
+                "9-9.50": [
+                    "PBCA11(25B13HS111)-PAC/CC3423"
+                ],
+                "10-10.50": [],
+                "11-11.50": [
+                    "LBCA1(23B12BT111)-RPS/CR-501"
+                ],
+                "12-12.50": [],
+                "1-1.50": [
+                    "LBCA1(23B31MA111)-HPT/CR501"
+                ],
+                "2-2.50": [
+                    "TBCA(25B11CA111)-SNA/TR305"
+                ],
+                "3-3.50": [
+                    "PBCA12(25B15CA111)-(SKS,DEP)/CC2421"
+                ],
+                "4-4.50": []
+            },
+            "WED": {
+                "9-9.50": [
+                    "LBCA1(25B11CA114)-AVK/CR501"
+                ],
+                "10-10.50": [],
+                "11-11.50": [
+                    "TBCA(25B11CA111)-NET/TR305"
+                ],
+                "12-12.50": [],
+                "1-1.50": [
+                    "TBCA1(23B31MA111)-HPT/TR524"
+                ],
+                "2-2.50": [
+                    "PBCA11(25B15CA111)-(NET,SNA)/CC3423"
+                ],
+                "3-3.50": [],
+                "4-4.50": []
+            },
+            "THUR": {
+                "9-9.50": [
+                    "LBCA1(25B11CA112)-VSH/CR501"
+                ],
+                "10-10.50": [
+                    "LBCA1(25B11CA111)-SNA/CR501"
+                ],
+                "11-11.50": [
+                    "LBCA1(25B11CA114)-AVK/CR501"
+                ],
+                "12-12.50": [],
+                "1-1.50": [
+                    "TBCA1(23B31MA111)-HPT/TR524"
+                ],
+                "2-2.50": [],
+                "3-3.50": [
+                    "PBCA12(25B13HS111)-PAC/CC3423"
+                ],
+                "4-4.50": []
+            },
+            "FRI": {
+                "9-9.50": [
+                    "PBCA11(25B15CA112)-(VSH)/CC2421",
+                    "PBCA12(25B15CA112)-(SHW)/CC3423"
+                ],
+                "10-10.50": [],
+                "11-11.50": [],
+                "12-12.50": [],
+                "1-1.50": [],
+                "2-2.50": [
+                    "LBCA1(25B11CA111)-SNA/CR501"
+                ],
+                "3-3.50": [],
+                "4-4.50": []
+            },
+            "SAT": {
+                "9-9.50": [
+                    "LBCA1(25B11CA113)-SHW/CR501"
+                ],
+                "10-10.50": [
+                    "LBCA1(25B11CA112)-VSH/CR501"
+                ],
+                "11-11.50": [],
+                "12-12.50": [],
+                "1-1.50": [],
+                "2-2.50": [],
+                "3-3.50": [],
+                "4-4.50": []
+            }
+        },
+        "subjects": [
+            {
+                "Code": "23B12BT111",
+                "Full Code": "23B12BT111",
+                "Subject": "Environmental Science"
+            },
+            {
+                "Code": "23B31MA111",
+                "Full Code": "23B31MA111",
+                "Subject": "Fundamentals of Mathematics"
+            },
+            {
+                "Code": "25B11CA111",
+                "Full Code": "25B11CA111",
+                "Subject": "Problem Solving Technique using C"
+            },
+            {
+                "Code": "25B11CA112",
+                "Full Code": "25B11CA112",
+                "Subject": "Web Technology"
+            },
+            {
+                "Code": "25B11CA113",
+                "Full Code": "25B11CA113",
+                "Subject": "Digital Logic"
+            },
+            {
+                "Code": "25B11CA114",
+                "Full Code": "25B11CA114",
+                "Subject": "Digital Technologies"
+            },
+            {
+                "Code": "25B135HS111",
+                "Full Code": "25B135HS111",
+                "Subject": "English Language Lab"
+            },
+            {
+                "Code": "25B15CA111",
+                "Full Code": "25B15CA111",
+                "Subject": "Problem Solving Technique using C lab"
+            },
+            {
+                "Code": "25B15CA112",
+                "Full Code": "25B15CA112",
+                "Subject": "Web Technology lab"
+            },
+            {
+                "Code": "25B31HS112",
+                "Full Code": "25B31HS112",
+                "Subject": "English"
+            }
+        ]
+    },
+    "3": {
+        "timetable": {
+            "MON": {
+                "9-9.50": [
+                    "LBCA1-4(25B12CA312)-CR526/NET"
+                ],
+                "10-10.50": [
+                    "LBCA1, BCA2(23B61CA311)-CR526/JC",
+                    "LBCA3, BCA4(23B61CA311)-CR425/NF-3"
+                ],
+                "11-11.50": [
+                    "LBCA1-4(25B12CA311)-CR425/IMR"
+                ],
+                "12-12.50": [
+                    "LBCA1, BCA2(23B61CA312)-CR526/NF-4",
+                    "LBCA3, BCA4(23B61CA312)-CR425/NF-8"
+                ],
+                "1-1.50": [
+                    "LUNCH"
+                ],
+                "2-2.50": [
+                    "PBCA1-4(25B16CA312)-CC3423/NET"
+                ],
+                "3-3.50": [],
+                "4-4.50": []
+            },
+            "TUES": {
+                "9-9.50": [
+                    "LBCA1, BCA2(23B61CA312)-CR526/NF-4"
+                ],
+                "10-10.50": [
+                    "LBCA1, BCA2(23B61CA311)-CR526/JC",
+                    "LBCA3, BCA4(23B61CA311)-CR425/NF-3"
+                ],
+                "11-11.50": [
+                    "PBCA1-4(25B16CA311)-CC3423/IMR",
+                    "PBCA1-4(25B16CA312)-CC1417/NET"
+                ],
+                "12-12.50": [],
+                "1-1.50": [
+                    "LUNCH"
+                ],
+                "2-2.50": [
+                    "LBCA1-4(25B12CA313)-CR526/NF-5",
+                    "LBCA1-4(25B12CA314)-CR501/NF-6"
+                ],
+                "3-3.50": [],
+                "4-4.50": []
+            },
+            "WED": {
+                "9-9.50": [],
+                "10-10.50": [
+                    "LBCA1, BCA2(23B61CA311)-CR526/JC",
+                    "LBCA3, BCA4(23B61CA311)-CR425/NF-3"
+                ],
+                "11-11.50": [],
+                "12-12.50": [
+                    "LBCA1-4(25B12CA313)-CR425/NF-5",
+                    "LBCA1-4(25B12CA314)-CR501/NF-6"
+                ],
+                "1-1.50": [
+                    "LUNCH"
+                ],
+                "2-2.50": [],
+                "3-3.50": [],
+                "4-4.50": []
+            },
+            "THUR": {
+                "9-9.50": [
+                    "LBCA1-4(25B12CA312)-CR526/NET"
+                ],
+                "10-10.50": [
+                    "LBCA1-4(25B12CA315)-CR526/NF-7",
+                    "LBCA1-4(25B12CA317)-CR425/NF-8"
+                ],
+                "11-11.50": [
+                    "LBCA1-4(25B12CA311)-CR425/IMR"
+                ],
+                "12-12.50": [
+                    "LBCA1-4(25B12CA313)-CR526/NF-5",
+                    "LBCA1-4(25B12CA314)-CR501/NF-6"
+                ],
+                "1-1.50": [
+                    "LUNCH"
+                ],
+                "2-2.50": [],
+                "3-3.50": [
+                    "TBCA3(23B61CA311)-TR305/JC",
+                    "TBCA1(23B61CA311)-TR524/NF-3"
+                ],
+                "4-4.50": []
+            },
+            "FRI": {
+                "9-9.50": [],
+                "10-10.50": [
+                    "LBCA1, BCA2(23B61CA312)-CR526/NF-4",
+                    "LBCA3, BCA4(23B61CA312)-CR425/NF-8"
+                ],
+                "11-11.50": [],
+                "12-12.50": [
+                    "LBCA1-4(25B12CA315)-CR526/NF-7",
+                    "LBCA1-4(25B12CA317)-CR425/NF-8"
+                ],
+                "1-1.50": [
+                    "LUNCH"
+                ],
+                "2-2.50": [
+                    "TBCA3(23B61CA311)-TR305/JC",
+                    "TBCA1(23B61CA311)-TR524/NF-3"
+                ],
+                "3-3.50": [
+                    "PBCA1-4(25B16CA315)-CC1417/NF-3/NF-7",
+                    "PBCA1-4(25B16CA317)-CC3423/NF-8"
+                ],
+                "4-4.50": []
+            },
+            "SAT": {
+                "9-9.50": [
+                    "PBCA1-4(25B16CA311)-CC3423/IMR"
+                ],
+                "10-10.50": [],
+                "11-11.50": [
+                    "LBCA3, BCA4(23B61CA312)-CR425/NF-8"
+                ],
+                "12-12.50": [],
+                "1-1.50": [
+                    "LUNCH"
+                ],
+                "2-2.50": [],
+                "3-3.50": [],
+                "4-4.50": []
+            }
+        },
+        "subjects": [
+            {
+                "Code": "23B61CA311",
+                "Full Code": "23B61CA311",
+                "Subject": "Computer Organization and Architecture"
+            },
+            {
+                "Code": "23B61CA312",
+                "Full Code": "23B61CA312",
+                "Subject": "Computer Networks"
+            },
+            {
+                "Code": "25B12CA311",
+                "Full Code": "25B12CA311",
+                "Subject": "Fundamentals of Natural Language Processing"
+            },
+            {
+                "Code": "25B12CA312",
+                "Full Code": "25B12CA312",
+                "Subject": "Data Analytics using Python and R"
+            },
+            {
+                "Code": "25B12CA313",
+                "Full Code": "25B12CA313",
+                "Subject": "Introduction to Deep Learning"
+            },
+            {
+                "Code": "25B12CA314",
+                "Full Code": "25B12CA314",
+                "Subject": "Stastistical Methods for Data Science"
+            },
+            {
+                "Code": "25B12CA315",
+                "Full Code": "25B12CA315",
+                "Subject": "Full Stack Developer-I(Web development)"
+            },
+            {
+                "Code": "25B12CA317",
+                "Full Code": "25B12CA317",
+                "Subject": "Full Stack Developer-I(Mobile development)"
+            },
+            {
+                "Code": "25B16CA311",
+                "Full Code": "25B16CA311",
+                "Subject": "Fundamentals of Natural Language Processing Lab"
+            },
+            {
+                "Code": "25B16CA312",
+                "Full Code": "25B16CA312",
+                "Subject": "Data Analytics using Python and R Lab"
+            },
+            {
+                "Code": "25B16CA315",
+                "Full Code": "25B16CA315",
+                "Subject": "Full Stack Developer-I(Web development) Lab"
+            },
+            {
+                "Code": "25B16CA317",
+                "Full Code": "25B16CA317",
+                "Subject": "Full Stack Developer-I(Mobile development) Lab"
+            }
+        ]
+    }
+}
