@@ -9,6 +9,7 @@
 
 A powerful **Next.js** application that helps JIIT students create personalized class schedules. Features a modern glassmorphic UI, color-coded timetables, academic calendar integration, and multiple export options. This application leverages **WebAssembly (Pyodide)** to generate timetables directly in the browser, ensuring privacy and offline capability.
 
+
 ## Analytics
 
 <img width="1800" height="1129" alt="image" src="https://github.com/user-attachments/assets/cb7e8ce7-a0a0-4fda-8d41-aef462fecfc2" />
@@ -29,6 +30,18 @@ A powerful **Next.js** application that helps JIIT students create personalized 
 - **Save Configs**: Save and load multiple timetable configurations.
 - **Analytics**: Integrated PostHog analytics for usage tracking.
 - **GenAI Integration**: Backend tools use Google Gemini for summarizing PDF notices.
+
+
+## A Quick Shoutout
+
+The mess menu data comes from **[@life2harsh](https://github.com/life2harsh)**, who updates the menus for both JIIT Sector 62 and 128 every single week. The JSON this app serves is pulled straight from his repo:
+
+> **Endpoint:** `https://raw.githubusercontent.com/life2harsh2/data/main/mess_menu.json`
+
+He also built [**Mess Scheduler**](https://github.com/life2harsh/mess-schedular), which automates the whole publishing workflow.
+
+If his stuff has been useful to you, consider checking out his repos and leaving a star or two. Cool Stuff he makes show him some love...
+
 
 ## Tech Stack
 
@@ -196,11 +209,10 @@ Contributions are welcome!
 
 ## Maintainers
 
-- **Tashif Ahmad Khan** ([@tashifkhan](https://github.com/tashifkhan)) - [admin@tashif.codes](mailto:admin@tashif.codes)
-- **Shaurya Rahlon** ([@ShauryaRahlon](https://github.com/ShauryaRahlon)) - [shauryarahlon.11@gmail.com](mailto:shauryarahlon.11@gmail.com)
+- **Tashif Ahmad Khan** ([@tashifkhan](https://github.com/tashifkhan)) - [me@tashif.codes](mailto:me@tashif.codes)
 
 ## Contact
 
 - **Issues**: [GitHub Issues](https://github.com/tashifkhan/JIIT-time-table-website/issues)
 - **Feature Requests**: [GitHub Issues](https://github.com/tashifkhan/JIIT-time-table-website/issues)
-- **Email**: [admin@tashif.codes](mailto:admin@tashif.codes)
+- **Email**: [me@tashif.codes](mailto:me@tashif.codes)
